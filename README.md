@@ -1,30 +1,17 @@
-# Discount Management System
+Personalized Discount Recommendation System
 
-## Description
-A MySQL-based Discount Management System demonstrating database tables,
-joins, views, stored procedures, and functions.
+This project uses MySQL to store users, products,
+discounts and purchase information.
 
-## Database
-- MySQL
-- MySQL Workbench
+Database Tables:
+1. Users
+2. Products
+3. Discounts
+4. Purchases
 
-## Features
+The database supports:
 - Product management
-- User management
-- Purchase tracking
 - Discount management
-- SQL JOIN queries
-- Views
-- Stored procedures
-- Functions
-
-## Files
-- `database.sql.sql` - Complete SQL database script
-
-## How to Run
-1. Open MySQL Workbench.
-2. Connect to your MySQL server.
-3. Open `database.sql.sql`.
-4. Execute the SQL script.
-5. Select the `discount_system` database.
-6. Run the queries/procedures/functions to test the project.
+- Purchase tracking
+- User-product relationships
+- ML-ready dataset generation
