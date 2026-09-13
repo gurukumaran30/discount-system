@@ -28,9 +28,7 @@ Password: secret  ⚠️ (Change in production)
 ```
 
 **Connection String** (for Python):
-```
 mysql+pymysql://root:5@127.0.0.1:3306/discount_system```
-
 **Via MySQL CLI**:
 ```bash
 mysql -h 127.0.0.1 -u root -psecret -D discount_system
