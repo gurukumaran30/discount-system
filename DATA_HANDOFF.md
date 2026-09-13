@@ -1,4 +1,4 @@
-# Data Handoff Guide for ML Team
+h# Data Handoff Guide for ML Team
 
 This document provides Divya with clean datasets, schema documentation, and connection details to begin ML work on the discount system.
 
@@ -29,8 +29,7 @@ Password: secret  ⚠️ (Change in production)
 
 **Connection String** (for Python):
 ```
-mysql+pymysql://root:secret@127.0.0.1:3306/discount_system
-```
+mysql+pymysql://root:5@127.0.0.1:3306/discount_system```
 
 **Via MySQL CLI**:
 ```bash
